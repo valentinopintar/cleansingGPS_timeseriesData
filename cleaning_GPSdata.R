@@ -2,7 +2,7 @@ rm(list=ls())
 
 library(tidyverse)
 
-setwd(choose.dir())   # choose directory s .csv file with start and end of flyght
+setwd(choose.dir())   # choose directory with raw .csv file and with start and end flyght data
 
 data_format <- "%Y-%m-%d %H:%M:%S"
 tz = "CET"
